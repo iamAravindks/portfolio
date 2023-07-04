@@ -41,5 +41,5 @@
   }
   
   .social-icons a:hover img {
-    filter: grayscale(0%);
+    background-color: grey;
   }

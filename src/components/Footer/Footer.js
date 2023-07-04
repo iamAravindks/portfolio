@@ -6,13 +6,13 @@ function Footer() {
 		<footer className="footer-container">
       <div className="social-icons">
         <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer">
-          <img src={require("../../assets/logos/linkedin-logo.png")} alt="LinkedIn" />
+          <img src={require("../../assets/logos/linkedin.svg")} alt="LinkedIn" />
         </a>
         <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
-          <img src={require("../../assets/logos/github-logo.png")} alt="GitHub" />
+          <img src={require("../../assets/logos/github.svg")} alt="GitHub" />
         </a>
         <a href="https://stackoverflow.com/users/your-userid" target="_blank" rel="noopener noreferrer">
-          <img src={require("../../assets/logos/stackoverflow.png")} alt="Stack Overflow" />
+          <img src={require("../../assets/logos/stack-overflow.svg")} alt="Stack Overflow" />
         </a>
       </div>
     </footer>

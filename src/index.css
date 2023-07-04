@@ -383,23 +383,19 @@ textarea {
 .card-text {
 	font-size: 0.75rem;
 	height: 8rem;
-	color: var(--quinary);
+	color: var(--dark);
 }
 
 .card-techs {
 	font-size: 0.75rem;
 	height: 4rem;
-	color: var(--quinary);
-}
-
-.card-image {
-	max-width: 300px;
-	max-height: 150px;
+	color: var(--quaternary);
 }
 
 .card-link {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	font-size: 0.70rem;
+	color: #37608b;
 }
 
 .padding {
