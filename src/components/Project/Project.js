@@ -40,13 +40,15 @@ function Project(props) {
 		  <Card.Text className="card-text">{description}</Card.Text>
 		  <Card.Subtitle className="card-subtitle">Techs Used</Card.Subtitle>
 		  <Card.Text className="card-techs">{getTechs(techs)}</Card.Text>
-		  <Card.Link href={appLink} target="_blank" className="card-link">
-			{name} App
-		  </Card.Link>
-		  <br></br>
-		  <Card.Link href={gitLink} target="_blank" className="card-link">
-			{name} Github
-		  </Card.Link>
+		  <div className="link-container">
+    <Card.Link href={appLink} target="_blank" className="card-link">
+        <img className="website" src={require(`../../assets/logos/website.png`)} alt="App Logo" />
+    </Card.Link>
+    <Card.Link href={gitLink} target="_blank" className="card-link">
+        <img className="github-logo" src={require(`../../assets/logos/github-logo.png`)} alt="GitHub Logo" />
+    </Card.Link>
+</div>
+
 		</div>
 	  </div>
 	);

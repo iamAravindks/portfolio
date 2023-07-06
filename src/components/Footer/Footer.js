@@ -6,7 +6,7 @@ function Footer() {
 		<footer className="footer-container">
       <div className="social-icons">
         <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer">
-          <img src={require("../../assets/logos/linkedin.svg")} alt="LinkedIn" />
+          <img src={require("../../assets/logos/linkedin-1.svg")} alt="LinkedIn" />
         </a>
         <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
           <img src={require("../../assets/logos/github.svg")} alt="GitHub" />
