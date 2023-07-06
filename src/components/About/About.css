@@ -1,0 +1,7 @@
+/* Avatar styles */
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Make the image a perfect circle */
+    margin-right: 20px;
+  }
